@@ -34,6 +34,7 @@ export * from './circuit-breaker/index.js'
 export * from './timeout/index.js'
 export * from './depth-guard/index.js'
 export * from './idempotency/index.js'
+export * from './tracing/index.js'
 
 // Import for unified API
 import { ResilientQueue, type QueueConfig } from './queue/index.js'
